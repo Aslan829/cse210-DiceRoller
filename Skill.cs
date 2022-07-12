@@ -5,6 +5,7 @@ namespace cse210_DiceRoller
 {
     public class Skill
     {  
+        //The name, modifier, and dice to be rolled.
         public string traitName ="";
         public int modifier = 0;
         public Dice mainDice = new Dice();

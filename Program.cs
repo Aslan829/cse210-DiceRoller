@@ -6,15 +6,15 @@ namespace cse210_DiceRoller
 {
     public class Program
     {
-        //Create player class and set up the character sheet.
         
         static public void Main(String[] args)
         {
 
+            //Create the character and game runner object.
             Character player = new Character();
             GameRunner roller = new GameRunner();
 
-        
+            //Run the game.
             roller.RunGame(player);
             
 
