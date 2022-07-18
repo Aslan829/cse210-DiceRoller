@@ -5,7 +5,7 @@ using System.Text.Json;
 namespace cse210_DiceRoller
 {
     public class Program
-    {
+    { 
         
         static public void Main(String[] args)
         {
